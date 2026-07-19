@@ -1,0 +1,93 @@
+dentscribe-ai/
+├── app/
+│   ├── api/
+│   │   ├── cron/
+│   │   │   └── winback/
+│   │   │       └── route.ts
+│   │   ├── demo/
+│   │   │   └── generate/
+│   │   │       └── route.ts
+│   │   ├── pms/
+│   │   │   └── push/
+│   │   │       └── route.ts
+│   │   ├── referral/
+│   │   │   ├── apply/
+│   │   │   │   └── route.ts
+│   │   │   └── link/
+│   │   │       └── route.ts
+│   │   ├── scorecard/
+│   │   │   └── route.ts
+│   │   ├── stripe/
+│   │   │   ├── checkout/
+│   │   │   │   └── route.ts
+│   │   │   ├── setup-intent/
+│   │   │   │   └── route.ts
+│   │   │   ├── update-payment-method/
+│   │   │   │   └── route.ts
+│   │   │   └── webhook/
+│   │   │       └── route.ts
+│   │   ├── team/
+│   │   │   └── join/
+│   │   │       └── route.ts
+│   │   └── transcribe/
+│   │       └── route.ts
+│   ├── dashboard/
+│   │   └── page.tsx
+│   ├── demo/
+│   │   └── page.tsx
+│   ├── payment/
+│   │   └── update/
+│   │       └── page.tsx
+│   ├── pricing/
+│   │   └── page.tsx
+│   ├── referral/
+│   │   └── page.tsx
+│   ├── scorecard/
+│   │   └── page.tsx
+│   ├── security/
+│   │   └── page.tsx
+│   ├── settings/
+│   │   └── integrations/
+│   │       └── page.tsx
+│   ├── signup/
+│   │   └── page.tsx
+│   ├── team/
+│   │   └── page.tsx
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── ComplianceBadge.tsx
+│   ├── ComplianceScore.tsx
+│   ├── DataSafetyDashboard.tsx
+│   ├── JoinPractice.tsx
+│   ├── PeerBenchmark.tsx
+│   ├── PersonalizationBadge.tsx
+│   ├── PushToPMS.tsx
+│   ├── ReferralProgram.tsx
+│   ├── SafetyRow.tsx
+│   ├── SecurityBadge.tsx
+│   ├── SmartUpsell.tsx
+│   ├── TeamAnalytics.tsx
+│   ├── UsageNudge.tsx
+│   ├── VoiceDictation.tsx
+│   └── ui/
+│       ├── CopyButton.tsx
+│       └── DataFlowDiagram.tsx
+├── lib/
+│   ├── demo-api.ts
+│   ├── openai.ts
+│   ├── opendental.ts
+│   ├── personalization.ts
+│   ├── supabase.ts
+│   └── winback.ts
+├── types/
+│   └── index.ts
+├── .env.example
+├── .env.local
+├── middleware.ts
+├── next.config.js
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+├── tsconfig.json
+└── vercel.json
